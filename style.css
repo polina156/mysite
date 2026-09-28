@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: hsl(48, 46%, 75%);
     color: #333;
 }
 
@@ -31,14 +31,15 @@ header {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .header-btn {
     padding: 10px 20px;
-    background-color: hsl(69, 95%, 52%);
-    color: #fff;
+    background-color: hsl(233, 68%, 28%);
+    color: hsl(49, 21%, 85%);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -67,7 +68,7 @@ header {
 
 /* Карточка */
 .card {
-    background-color: #fff;
+    background-color: lab(95.03% -3.34 26.26);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
@@ -77,7 +78,7 @@ header {
 
 .card-image {
     height: 200px;
-    background-color: #eee;
+    background-color: hsl(50, 64%, 86%);
     overflow: hidden;
 }
 
